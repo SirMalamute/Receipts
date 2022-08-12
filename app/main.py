@@ -136,5 +136,3 @@ def stats():
 
     return render_template('stats.html', title=cat, month=full_month_name, monthcost=monthcost, totalcost=totalcost, length=length, freq=freq)
 
-
-app.run(debug=True)
